@@ -267,4 +267,39 @@ table.tableData td, table.tableData th{
 .price{color: #5cb85c;font-weight: 600;}
 .shadow{
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+	margin: 15px;
+}
+.card-header-success{
+	background-color: #2fc76c2b!important;
+	padding: .75rem 1.25rem;
+	color:#00A643;
+	border-bottom: 1px solid rgba(0,0,0,.15);
+}
+.card-header-danger{
+	background-color:#e631412b!important;
+	padding: .75rem 1.25rem;
+	color:#e63141;
+	border-bottom: 1px solid rgba(0,0,0,.15);
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.success-sign{
+	padding: 10px;
+    border: 7px solid;
+    color: #3ec312;
+    border-radius: 50%;
+    width: 11%;
+    margin: 2% 44%;
+}
+.danger-sign{
+	padding: 10px 16px;
+    border: 7px solid;
+    color: #F63C3C;
+    border-radius: 50%;
+    width: 11%;
+    margin: 2% 44%;
 }
