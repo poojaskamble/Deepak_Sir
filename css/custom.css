@@ -43,11 +43,11 @@
 
 .payment_menu{
 	padding: 4px;
-    border-bottom: 1px solid #396ec7;
-    border-left: 5px solid #396ec7;
+    border-bottom: 1px solid #23457d;
+    border-left: 5px solid #23457d;
     margin-bottom: 5px;
-    background-color: #4285f4;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2), 0 -1px 0 0 rgba(0,0,0,.03);
+    background-color: #233741;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2), 0 -1px 0 0 rgba(0,0,0,.03);
 }
 .card_menu{
 	padding: 0;
@@ -69,7 +69,7 @@
     border-left: 5px solid #4285f4;
 
 }
-.payment_menu.active a{color:#4285f4 !important;}
+.payment_menu.active a{color:#233741 !important}
 .payment_menu a{font-size:12px !important; color:#fff !important;}
 
 .card_menu a{font-size:10px !important;}
@@ -94,7 +94,7 @@ label {
 	padding: 13px;
 	text-transform:uppercase;
     color: #fff;
-    background-color: #4285f4;
+    background-color: #233741;
     border-top: 3px solid #396ec7;
     border-left: 1px solid #396ec7;
     border-right: 1px solid #396ec7;
