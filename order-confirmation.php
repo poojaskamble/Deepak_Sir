@@ -7,32 +7,33 @@
 	<div class="banner-bottom">
 		<div class="container-fluid">
 			<div class="w3l_stats_bottom_grid_left">
-				<div class="col-lg-12">
-                    <div class="col-md-12 col-xs-12" >
-                        <div class="alert alert-success shadow">
-                            <div class="col-lg-7"><h4>Order Placed Successfully.</h4></div>
-							<div class="col-lg-5"><h4 class="text-center"><strong>#OrderNo2536987</strong></h4></div>
-							<hr/>
-							<div class="clearfix">&nbsp;</div>
-							<H3 class="text-center">Thank You!</H3> <br/>
-							<p class="text-center">We will reach to you with your order <a href="#"><strong>#OrderNo2536987</strong></a> soon.</p>
-							<br/>
-							<div class="text-center"><button class="btn btn-warning primaryBtn"><i class="fa fa-home"></i> HOME</button></div>
+				<div class="col-lg-12 row-center">
+                    <div class="col-md-8 col-xs-12 col-center">
+						<div class="shadow">
+                            <div class="card-body">
+								<div class="success-sign"><i class="fa fa-check fa-3x"></i></div>
+                                <h3 class="text-center">Thank You!</h3> <br/>
+                                <p class="text-center">We will reach to you with your order <strong>#OrderNo2536987</strong> soon.</p>
+                                <br/>
+								<div class="text-center">
+                                    <a href="index.php">
+                                    <button class="btn btn-warning primaryBtn"><i class="fa fa-home"></i> HOME</button>
+                                    </a>
+                                </div>					
+							</div>
                         </div>
-						
                     </div>
-                    <div class="clearfix"> </div>
-					<div class="col-md-12 col-xs-12">
-                        <div class="alert alert-danger shadow">
-                            <div class="col-lg-12"><h4>Payment not Successful.</h4></div>
-							<hr/>
-							<div class="clearfix">&nbsp;</div>
-							<H3 class="text-center">Oops!</H3> <br/>
-							<p class="text-center">The order you are looking for are not successfully placed due to payment not done. Please try again.</p>
-							<br/>
-							<div class="text-center"><button class="btn btn-warning primaryBtn"><i class="fa fa-home"></i> HOME</button></div>
-                        </div>
-						
+					<br/>
+					<div class="col-md-8 col-xs-12 col-center">
+                        <div class="shadow">
+							<div class="card-body">
+								<div class="danger-sign"><i class="fa fa-remove fa-3x"></i></div>
+                                <h3 class="text-center">Oops!</h3> <br/>
+                                <p class="text-center">The order you are looking for are not successfully placed due to payment not done. Please try again.</p>
+                                <br/>
+                                <div class="text-center"><a href="index.php"><button class="btn btn-warning primaryBtn"><i class="fa fa-home"></i> HOME</button></a></div>
+                        	</div>
+						</div>
                     </div>
 				</div>
 			</div>
